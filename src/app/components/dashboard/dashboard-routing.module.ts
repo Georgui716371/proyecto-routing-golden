@@ -5,7 +5,8 @@ import { HomeComponent } from './home/home.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { OfertasComponent } from './ofertas/ofertas.component';
 
-const routes: Routes = [{ path: '', component: DashboardComponent ,
+const routes: Routes = [
+{ path: '', component: DashboardComponent ,
 children: [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
